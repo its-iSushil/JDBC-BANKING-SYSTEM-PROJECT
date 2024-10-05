@@ -21,15 +21,15 @@ a. Start MySQL on your machine.
 b. Create a Database for the project = > "CREATE DATABASE banking_system_db;"
 c. Create Account Table: 
 
-+----------------+---------------+------+-----+---------+-------+
+
 | Field          | Type          | Null | Key | Default | Extra |
-+----------------+---------------+------+-----+---------+-------+
+
 | account_number | bigint        | NO   | PRI | NULL    |       |
 | full_name      | varchar(30)   | YES  |     | NULL    |       |
 | email          | varchar(30)   | YES  | UNI | NULL    |       |
 | balance        | decimal(10,2) | YES  |     | NULL    |       |
 | security_pin   | char(4)       | YES  |     | NULL    |       |
-+----------------+---------------+------+-----+---------+-------+
+
 
 d. Create User Table:
 
